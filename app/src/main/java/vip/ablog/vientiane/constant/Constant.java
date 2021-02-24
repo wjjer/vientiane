@@ -15,6 +15,9 @@ import vip.ablog.vientiane.utils.ACache;
 
 public class Constant {
 
+    /*Bmob Configuration*/
+    public static final String BMOB_SDK_ID = "XXXX";
+
     public static final String SHOW_SOURCE_JS_NAME = "java_show";
     public static final String HOST = "https://www.101yingyuan.net";
     public static final String LATEST_UPDATE_URL = HOST + "/top/new.html";
@@ -30,11 +33,6 @@ public class Constant {
     public static final String PAGE_SUFFIX = ".html";
     public static final int CACHE_TIME = 3600 * 72;
     public static final String SEARCH_HIS = "SEARCH_HIS";
-    public static final String BMOB_SDK_ID = "0610b295bbfac0f89522b10671b76e8c";
-    public static final String AD_APPID = "SDK202010281009087scbmu4wktm9yey";
-    public static final String AD_SPLASH_POSID = "POSID51un1pthncgm";
-    public static final String AD_BANNER_POSID = "POSID2ghhoi98tzll";
-    public static final String AD_VIDEO_POSID = "POSID49gzo1lx6gs0";
     public static final String PLAY_VIDEO_AD = "PLAY_VIDEO_AD";
     public static final String APP_PERMISSION = "APP_PERMISSION";
     public static String APP_CODE = "";

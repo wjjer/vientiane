@@ -1,0 +1,5 @@
+ios_url,target_size,channel,isforce,version,version_i,android_url,update_log,platform
+,5385155,,true,1.0.3,3,https://ablog.lanzous.com/b015szfid,"1.去除所有APP广告，页面更加请爽；
+2.优化界面动画效果，增强稳定性；
+3.修复已知Bug，添加反馈功能；
+４.优化存储占用异常问题；",Android
