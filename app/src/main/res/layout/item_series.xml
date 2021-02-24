@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="@dimen/dp_10"
+    android:background="#55ffffff"
+    android:id="@+id/tv_juji_button"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_item_juji_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="影视名称"
+        android:textColor="@color/mainBlack5B"
+        android:textSize="15dp" />
+</LinearLayout>

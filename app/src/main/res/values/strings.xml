@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AB影院</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_latest_update">最近更新</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="app_notify">关注公众号AB小站，获取更多有趣资讯，最新剧场资讯第一时间获取更新！</string>
+    <string name="app_active">当前软件未激活，无法使用搜索。请关注公众号<b>AB小站</b>，回复<u>激活</u>，免费获取软件激活码！</string>
+    <string name="active_error">激活码有误！请关注公众号：<b>\'AB小站\'</b>，回复<u>\'激活\'</u>，免费获取软件激活码！</string>
+    <string name="APP_SHARE">全网影视免费看，分享给你这个</string>
+    <string name="app_desc">这个app可以全网免费追剧，你看看</string>
+    <string name="app_key">we98tywehidxedgj9tg8Se</string>
+    <string name="app_reputation">本APP仅用于技术学习，资源均收集于互联网各大网站的视频信息，并无意侵犯您的权益，如侵权请留言告知，我们将火速下线删除相关视频信息。</string>
+    <string name="app_gzh">打开微信，搜索并关注公众号：<b>AB小站</b>，获取更多有趣APP，新剧热剧不停歇！\n 可以把本软件分享给你身边的朋友，共享追剧时光哦~</string>
+    <string name="app_active_way">
+       打开微信，搜索并关注公众号：<u>AB小站</u>，回复<u>激活</u>即可获得激活码。
+    </string>
+    <string name="ad_notify">即将播放一段15秒的小广告，一天只会播放这一次，谢谢您的理解与支持！</string>
+    <string name="check_permission">软件需要缓存部分用户信息和播放记录，请您允许软件存储权限</string>
+    <string name="app_wxb">本APP为精简标清画质版本，如果想要免费体验高清追剧，点击此处下载《万象播》APP，体验流畅高速追剧</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_cyan_400_color_code">
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_tp"
+            android:layout_gravity="end"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="wrap_content"
+            android:text="投屏"
+            android:textSize="@dimen/dp_10"
+            android:textColor="@color/white"
+            android:background="@null"/>
+        <Button
+            android:id="@+id/btn_juji"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="剧集"
+            android:textSize="@dimen/dp_10"
+            android:textColor="@color/white"
+            android:background="@null"/>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp" />
+        <TextView
+            android:id="@+id/tv_loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="加载中:0%"
+            android:textColor="@color/mainBlack5B"
+            android:textSize="10sp" />
+
+
+        <com.tencent.smtt.sdk.WebView
+            android:id="@+id/mwebview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/mainGrayC6" />
+
+    </LinearLayout>
+
+</LinearLayout>

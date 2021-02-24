@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:id="@+id/cd_item_home"
+    android:layout_margin="2dp"
+    android:translationZ="2dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8">
+
+            <ImageView
+                android:transitionName="shareNames"
+                android:id="@+id/iv_item_home_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@color/mainGrayC6"
+                android:scaleType="fitXY" />
+
+            <vip.ablog.vientiane.ext.textview.AlwaysMarqueeTextView
+                android:id="@+id/tv_item_home_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:background="@drawable/translate2_bg"
+                android:padding="2dp"
+                android:text=""
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:singleLine="true"
+                android:marqueeRepeatLimit="1"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/tv_item_home_tv_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:padding="2dp"
+                android:text="9.9分"
+                android:textColor="#fffb3b"
+                android:textSize="15dp" />
+
+        </FrameLayout>
+
+        <vip.ablog.vientiane.ext.textview.AlwaysMarqueeTextView
+            android:id="@+id/tv_item_home_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="1"
+            android:scrollHorizontally="true"
+            android:text="影视名称"
+            android:textFontWeight="200"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <vip.ablog.vientiane.ext.textview.AlwaysMarqueeTextView
+            android:id="@+id/tv_item_home_director"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:focusable="true"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="1"
+            android:scrollHorizontally="true"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/mainGrayC6"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

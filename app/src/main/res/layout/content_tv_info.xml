@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.TvInfoActivity"
+    tools:showIn="@layout/activity_tv_info">
+
+    <ImageView
+        android:id="@+id/ll_bg_juji"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_yuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:gravity="left"
+                android:text="源选择（默认为第1个视频源）"
+                android:textColor="@color/colorAccent"
+                android:textSize="16dp" />
+
+            <RadioGroup
+                android:id="@+id/ll_source"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"></RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="剧集"
+            android:textColor="@color/colorAccent"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:id="@+id/fm_juji"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_juji"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"></androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <include layout="@layout/loading_anim"/>
+</RelativeLayout>

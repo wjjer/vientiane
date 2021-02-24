@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_blue_grey_50_color_code">
+    <FrameLayout
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:keepScreenOn="true"
+        android:text="声明:\n欢迎使用乐播影音！\n本软件只提供展示功能,数据均来自互联网;\n仅用于学习用途\如有侵权行为及时联系我;\n遇到问题或数据失效请加群反馈;\n点击右上角跳过引导"
+        android:textColor="@color/md_blue_a700_color_code"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/md_teal_400_color_code"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="@string/app_name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/md_brown_400_color_code"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:text="AB小站倾情打造，公众号：AB小站"/>
+    </LinearLayout>
+</FrameLayout>

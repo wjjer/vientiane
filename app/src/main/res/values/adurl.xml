@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="adBlockUrl">
+        <item>ubmcmm.baidustatic.com</item>
+        <item>cpro2.baidustatic.com</item>
+        <item>cpro.baidustatic.com</item>
+        <item>s.lianmeng.360.cn</item>
+        <item>nsclick.baidu.com</item>
+        <item>pos.baidu.com</item>
+        <item>cbjs.baidu.com</item>
+        <item>cpro.baidu.com</item>
+        <item>images.sohu.com</item>
+        <item>union.sogou.com/</item>
+        <item>sogou.com</item>
+        <item>img3.kfkfl.cn/</item>
+        <item>e.tdtsd.com</item>
+        <item>xthanbai.com</item>
+        <item>http://img.yuyue007.cn</item>
+        <item>//display.mimon.top</item>
+        <item>img.cdxzx-tech.com</item>
+        <item>img.dtmpekda9.cn</item>
+        <item>yihuayiyong.cn</item>
+        <item>pic.kewke.com</item>
+        <item>aazcio.cn</item>
+        <item>2020255.oss-accelerate.aliyuncs.com/</item>
+
+    </string-array>
+</resources>
